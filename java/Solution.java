@@ -9,6 +9,11 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import lombok.SneakyThrows;
+import model.Students;
+import service.DatabaseService;
+import service.DatabaseServiceImpl;
+import service.MenuItemService;
+import service.MenuItemServiceImpl;
 
 public class Solution extends Application {
     public static void main(String[] args) {
@@ -50,7 +55,7 @@ public class Solution extends Application {
         VBox root = new VBox(hRoot, tableView, average, sum);
         Scene scene = new Scene(root, 1600, 900);
 
-        stage.setTitle("Students Menu");
+        stage.setTitle("model.Students Menu");
         stage.setScene(scene);
         stage.show();
     }
