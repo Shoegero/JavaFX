@@ -1,8 +1,8 @@
-package service;
+package service.database;
 
 import lombok.SneakyThrows;
 import model.Students;
-import service.DatabaseService;
+import service.database.DatabaseService;
 
 import java.sql.*;
 import java.util.ArrayList;

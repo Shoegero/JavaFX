@@ -1,4 +1,4 @@
-package service;
+package service.database;
 
 import model.Students;
 

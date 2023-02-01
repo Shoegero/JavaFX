@@ -10,10 +10,10 @@ import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import lombok.SneakyThrows;
 import model.Students;
-import service.DatabaseService;
-import service.DatabaseServiceImpl;
-import service.MenuItemService;
-import service.MenuItemServiceImpl;
+import service.database.DatabaseService;
+import service.database.DatabaseServiceImpl;
+import service.menu.MenuItemService;
+import service.menu.MenuItemServiceImpl;
 
 public class Solution extends Application {
     public static void main(String[] args) {
