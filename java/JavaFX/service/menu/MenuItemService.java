@@ -1,4 +1,4 @@
-package service.menu;
+package JavaFX.service.menu;
 
 import javafx.scene.control.Button;
 import javafx.scene.control.MenuItem;

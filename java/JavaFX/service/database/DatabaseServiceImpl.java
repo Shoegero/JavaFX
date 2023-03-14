@@ -1,8 +1,7 @@
-package service.database;
+package JavaFX.service.database;
 
 import lombok.SneakyThrows;
-import model.Students;
-import service.database.DatabaseService;
+import JavaFX.model.Students;
 
 import java.sql.*;
 import java.util.ArrayList;

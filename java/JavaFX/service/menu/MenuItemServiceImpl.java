@@ -1,4 +1,4 @@
-package service.menu;
+package JavaFX.service.menu;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -13,10 +13,9 @@ import javafx.stage.Stage;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import model.Students;
-import service.database.DatabaseService;
-import service.database.DatabaseServiceImpl;
-import service.menu.MenuItemService;
+import JavaFX.model.Students;
+import JavaFX.service.database.DatabaseService;
+import JavaFX.service.database.DatabaseServiceImpl;
 
 @Data
 @AllArgsConstructor

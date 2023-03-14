@@ -1,6 +1,6 @@
-package service.database;
+package JavaFX.service.database;
 
-import model.Students;
+import JavaFX.model.Students;
 
 import java.util.List;
 

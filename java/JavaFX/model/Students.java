@@ -1,4 +1,4 @@
-package model;
+package JavaFX.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

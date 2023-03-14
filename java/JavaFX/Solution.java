@@ -1,3 +1,5 @@
+package JavaFX;
+
 import javafx.application.Application;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -9,11 +11,11 @@ import javafx.scene.layout.VBox;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 import lombok.SneakyThrows;
-import model.Students;
-import service.database.DatabaseService;
-import service.database.DatabaseServiceImpl;
-import service.menu.MenuItemService;
-import service.menu.MenuItemServiceImpl;
+import JavaFX.model.Students;
+import JavaFX.service.database.DatabaseService;
+import JavaFX.service.database.DatabaseServiceImpl;
+import JavaFX.service.menu.MenuItemService;
+import JavaFX.service.menu.MenuItemServiceImpl;
 
 public class Solution extends Application {
     public static void main(String[] args) {
